@@ -2,7 +2,7 @@ body{
 	font-family: 'Nunito Sans', sans-serif;
 }
 
-/*-----------------------------------------header--------------------------------------------*/
+/*-----------------------------------------header------------------------------------*/
 
 header{
 	border-bottom: 1px solid #dedede;
@@ -22,6 +22,13 @@ header{
 	justify-content: space-between;
 	padding-top: 26px;
 	padding-bottom: 25px;
+}
+
+.header-item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-basis: 68.5%;
 }
 
 .header-logo{
@@ -96,7 +103,7 @@ header{
 	font-size: 15px;
 }
 
-/*---------------------------------------------------bg------------------------------------------------*/
+/*---------------------------------------------------bg-----------------------------*/
 
 .bg{
 	text-align: center;
@@ -155,7 +162,7 @@ header{
 	margin: 0px auto;
 }
 
-/*----------------------------------------------main-----------------------------------------------*/
+/*----------------------------------------------main----------------------------*/
 
 .banner-box{
 	background-image: url("../images/banner.jpg");
@@ -205,14 +212,20 @@ header{
 	color: #1E2F40;
 	text-decoration: none;
 	background-color: #FBB731;
-	padding: 20px 25px;
+	padding: 18px 25px;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
 	border-radius: 5px;
+	border: 1px solid #FBB731;
 }
 
-/*---------------------------------------------main-section-------------------------------------------------------*/
+.banner-link:hover{
+	background-color: transparent;
+	color: #FBB731;
+}
+
+/*---------------------------------------------main-section--------------------------------*/
 
 .menu-header{
 	display: flex;
@@ -244,7 +257,7 @@ header{
 	background-position: 89% center;
 }
 
-/*------------------------------------------------menu-grid-----------------------------------------------*/
+/*------------------------------------------------menu-grid--------------------------------*/
 
 .menu-grid{
 	display: grid;
@@ -300,6 +313,10 @@ header{
 	margin: 0px auto;
 	margin-top: 22px;
 }
+.menu-grid-btn:hover{
+	background-color: #F37335;
+	cursor: pointer;
+}
 
 .menu-grid-icon{
 	background-image: url("../images/cart-menu.svg");
@@ -315,7 +332,7 @@ header{
 	text-transform: uppercase;
 }
 
-/*----------------------------------------------------menu-flex-----------------------------------------*/
+/*----------------------------------------------------menu-flex-------------------------------*/
 
 .menu-flex{
 	display: flex;
@@ -362,6 +379,10 @@ header{
 	margin: 0px auto;
 	margin-top: 22px;
 }
+.menu-flex-btn:hover{
+	background-color: #F37335;
+	cursor: pointer;
+}
 
 .menu-flex-icon{
 	display: block;
@@ -397,10 +418,10 @@ header{
 	width: 63px;
 	height: 56px;
 }
-.footr-item {
+.footer-item {
 	flex: 0 0 auto;
 }
-.footr-item h2 {
+.footer-item h2 {
 	font-size: 20px;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -408,7 +429,7 @@ header{
 	margin-top: 0px;
 }
 
-.footr-item li {
+.footer-list li {
 	margin-bottom: 9px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -416,28 +437,40 @@ header{
 	font-weight: 700;
 	line-height: 24px;
 }
-.footr-item a {
+.footer-list a {
 	color: #DEDEDE;
 	text-decoration: none;
 	font-weight: 400;
 }
-.footr-item span {
+.footer-list a:hover{
+	color: #FBB731;
+}
+
+.footer-item span {
 	color: #DEDEDE;
 	display: block;
 	font-weight: 400;
 	margin-bottom: 2px;
 }
-.footr-tel ul {
-	font-size: 20px;
-	color: #FBB731;
+
+.footer-list-tel {
 	margin-top: 0px;
-	font-weight: 900;
 }
-.footr-tel li {
+
+.footer-list-tel li {
 	margin-bottom: 12px;
 }
 
-.footer-list{
+.footer-list-tel a {
+	font-size: 20px;
+	color: #FBB731;
+	font-weight: 900;
+}
+.footer-list-tel a:hover{
+	color: #fff;
+}
+
+.footer-list {
 	padding-left: 0px;
 	list-style-type: none;
 }
