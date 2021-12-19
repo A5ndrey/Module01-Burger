@@ -107,10 +107,10 @@ header{
 /*---------------------------------------------------bg-----------------------------*/
 
 .bg{
+	background-size: cover;
 	text-align: center;
 	color: #fff;
 	background-image: url("../images/bg.jpg");
-	background-size: cover;
 	padding: 142px 0px;
 	background-position: center center;
 	margin-bottom: 140px;
@@ -456,7 +456,7 @@ header{
 	padding: 179px 0px;
 }
 
-.title {
+.main-title {
 	font-weight: 800;
 	font-style: normal;
 	font-size: 120px;
