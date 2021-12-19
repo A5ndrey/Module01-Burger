@@ -451,6 +451,7 @@ header{
 	margin: 0px auto;
 	display: flex;
 	justify-content: space-between;
+	gap: 25px;
 }
 
 .text {
